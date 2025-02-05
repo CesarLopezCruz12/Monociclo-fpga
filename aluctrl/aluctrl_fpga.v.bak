@@ -1,0 +1,21 @@
+module aluctrl_fpga(
+     input  [4:0] opcoce_i,
+	  input  [2:0]  F3_i,
+	  input         F7_i,
+	  output [6:0]  display_o
+);
+  reg [3:0] aluoperacion_w
+
+   aluctrl aluctrl_u0(
+	.f7_i (F7_i),
+	.f3_i (F3_i),
+	.aluop_i (opcoce_i), 
+	.aluoperacion_o (aluoperacion_w)
+	
+);
+
+  disp7segs(
+	.entrada_i (aluoperacion_w),
+	.salida_o  (display_o)
+);
+endmodule 

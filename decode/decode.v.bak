@@ -1,0 +1,14 @@
+module decode(
+	input		[6:0]	opcode_i,
+	output reg		regwrite_o
+);
+
+	always @(*)
+	begin 
+		case(opcode_i)
+		7'b0010011:
+			regwrite_o = 1'b1;
+		default:
+			regwrite_o = 1'b0;
+	endcase
+endmodule

@@ -1,0 +1,25 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu/sumador {D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador/fulladder.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/aluN.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/alu.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/fpga {D:/practicasArqui/ultima alu/monociclo_fpga/fpga/disp7segs.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga {D:/practicasArqui/ultima alu/monociclo_fpga/monociclo.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga {D:/practicasArqui/ultima alu/monociclo_fpga/monociclo_fpga.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/fpga {D:/practicasArqui/ultima alu/monociclo_fpga/fpga/divisor50mhz.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/decode {D:/practicasArqui/ultima alu/monociclo_fpga/decode/decode.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/regfile {D:/practicasArqui/ultima alu/monociclo_fpga/regfile/registerfile.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/sign {D:/practicasArqui/ultima alu/monociclo_fpga/sign/signext.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/dcache {D:/practicasArqui/ultima alu/monociclo_fpga/dcache/dcache.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/flagdetector.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/aluctrl {D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl/aluctrl.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluChikita.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluFinal.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/muxAlu.v}
+vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/chache {D:/practicasArqui/ultima alu/monociclo_fpga/chache/ichache.v}
+

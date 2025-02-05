@@ -1,0 +1,137 @@
+module aluctrl (
+	input			   f7_i,
+	input		[2:0] f3_i,
+	input 	[4:0] aluop_i,
+	output  reg  [3:0] aluoperacion_o,
+	output  reg	 [2:0] brctrl_o
+	
+);
+
+	always @(*)
+		begin
+			case(aluop_i)
+				5'b01100: 		//instrucciones R
+					begin
+						case({f7_i, f3_i})							//bit 3 usa la alu principal o la extension, bit 2 si es negativo o positivo, bit 1 y 0 seleccion
+						     4'b0_000: //Suma
+									aluoperacion_o = 4'b0_0_10;
+							  4'b1_000: //Resta
+									aluoperacion_o = 4'b0_1_10;
+							  4'b0_010: //SLT
+									aluoperacion_o = 4'b0_1_11; 
+									
+							  4'b0_111: //AND
+									aluoperacion_o = 4'b0_0_00;
+							  
+							  4'b0_110: //OR
+									aluoperacion_o = 4'b0_0_01;
+				
+							  4'b0_100: //XOR
+									aluoperacion_o = 4'b0_1_01;
+									
+							  	4'b0_011: //SLTU
+									aluoperacion_o = 4'b0_1_00; // CHECAR COMO SE HACE EL SLTU	 
+									
+								4'b0_001: //SLL
+									aluoperacion_o = 4'b1_0_01;
+									
+								4'b0_101: //SRL
+									aluoperacion_o = 4'b1_0_10;
+									
+								4'b1_101: //SRA
+									aluoperacion_o = 4'b1_1_11;
+						endcase
+					end
+					
+					5'b00100: 		//instrucciones I
+					begin
+						case({f7_i, f3_i})
+						     4'b0_000: //Suma
+									aluoperacion_o = 4'b0_0_10;
+									
+							  4'b0_010: //SLT
+									aluoperacion_o = 4'b0_1_11; //checar
+									
+							  4'b0_111: //AND
+									aluoperacion_o = 4'b0_0_00;
+							  
+							  4'b0_110: //OR
+									aluoperacion_o = 4'b0_0_01;
+				
+							  4'b0_100: //XOR
+									aluoperacion_o = 4'b0_1_01;
+									
+							  	4'b0_011: //SLTU
+									aluoperacion_o = 4'b0_1_00; // checar
+									
+								4'b0_001: //SLL
+									aluoperacion_o = 4'b1_0_01;  // cehcar
+									
+								4'b0_101: //SRL
+									aluoperacion_o = 4'b1_0_10;  // checar
+									
+								4'b1_101: //SRA
+									aluoperacion_o = 4'b1_0_11;
+						endcase
+					end
+					
+				5'b01000: 		//instrucciones S
+					begin
+						aluoperacion_o = 4'b0_0_10;
+					end
+					
+				5'b00000: 		//instrucciones L
+					begin
+						aluoperacion_o = 4'b0_0_10;
+					end
+					
+				5'b11000: 		//instrucciones B
+					begin
+						case(f3_i)
+							3'b000:					//BEQ
+								begin
+									aluoperacion_o = 4'b0_1_11;
+									brctrl_o = 3'b000;
+								end
+							3'b100:					//Blt
+								begin
+									aluoperacion_o = 4'b0_1_11;
+									brctrl_o = 3'b100;
+								end
+							3'b001:					//BNE
+								begin
+									aluoperacion_o = 4'b0_1_11;
+									brctrl_o = 3'b001;
+								end
+							3'b101:					//BGE
+								begin
+									aluoperacion_o = 4'b0_1_11;
+									brctrl_o = 3'b101;
+								end
+							3'b110:					//BLTU
+								begin
+									aluoperacion_o = 4'b0_1_11;
+									brctrl_o = 3'b110;
+								end
+							3'b111:					//BGEU
+								begin
+									aluoperacion_o = 4'b0_1_11;
+									brctrl_o = 3'b111;
+								end
+						endcase 	
+					end
+					5'b11011:
+						begin
+								aluoperacion_o = 4'b0_0_10;
+						end
+						
+				default:
+					begin
+							aluoperacion_o = 4'b1_1_11;
+							brctrl_o = 3'b000;
+					end
+							
+			endcase
+		end
+	endmodule
+	

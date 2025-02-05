@@ -1,0 +1,10 @@
+module sign_extension(
+    input [31:0] 	datoext_i,   // Valor inmediato de 32 bits
+    output [63:0] signext_o   // Valor inmediato extendido de 64 bits
+);
+
+assign signext_o = {{32{datoext_i[31]}}, datoext_i};
+
+endmodule
+
+

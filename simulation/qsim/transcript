@@ -1,0 +1,28 @@
+# do monociclo.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:36:52 on Dec 12,2023
+# vlog -work work monociclo.vo 
+# -- Compiling module monociclo_fpga
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	monociclo_fpga
+# End time: 21:36:52 on Dec 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 21:36:52 on Dec 12,2023
+# vlog -work work Waveform4.vwf.vt 
+# -- Compiling module monociclo_fpga_vlg_vec_tst
+# 
+# Top level modules:
+# 	monociclo_fpga_vlg_vec_tst
+# End time: 21:36:52 on Dec 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.monociclo_fpga_vlg_vec_tst 
+# Start time: 21:36:52 on Dec 12,2023
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# End time: 21:36:52 on Dec 12,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

@@ -1,0 +1,549 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s12c _opt2
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s12c _opt
+R1
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dD:/practicasArqui/ultima alu/monociclo_fpga/simulation/questa
+T_opt
+!s110 1702802490
+VCF0Ijho?XTE1hJ1]_=NY;3
+Z3 04 13 4 work monocliclo_tb fast 0
+=1-9408532e97f7-657eb439-2f1-6574
+R1
+Z4 !s12b OEM100
+!s124 OEM10U77 
+Z5 o-quiet -auto_acc_if_foreign -work work +acc
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2023.3;77
+R2
+T_opt1
+!s110 1704941533
+V[UjPY5aTJ^JLM^g1]XN?30
+R3
+=1-9408532e97f7-659f57dd-c8-6d08
+R1
+R4
+!s124 OEM10U76 
+R5
+R6
+n@_opt1
+R7
+valu
+2D:/practicasArqui/ultima alu/monociclo_fpga/alu/alu.v
+Z8 !s110 1704941510
+!i10b 1
+!s100 FL^JgWH;QKcg]b^AI[2_j2
+IjJI5<9TNOlT:MSVmK@Hil1
+R2
+w1704528201
+8D:/practicasArqui/ultima alu/monociclo_fpga/alu/alu.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/alu/alu.v
+!i122 2
+L0 1 60
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z11 !s108 1704941510.000000
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/alu/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu|D:/practicasArqui/ultima alu/monociclo_fpga/alu/alu.v|
+!i113 0
+Z12 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vAluChikita
+2D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluChikita.v
+Z14 !s110 1704941512
+!i10b 1
+!s100 h3^XGk46a1neXzmcaYS?F3
+I3>KJ3IVzm24[hfM>dC1H51
+R2
+w1704767554
+8D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluChikita.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/alu/AluChikita.v
+!i122 13
+L0 1 25
+R9
+R10
+r1
+!s85 0
+31
+Z15 !s108 1704941511.000000
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluChikita.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu|D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluChikita.v|
+!i113 0
+R12
+R13
+R6
+n@alu@chikita
+valuctrl
+2D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl/aluctrl.v
+Z16 !s110 1704941511
+!i10b 1
+!s100 L;Ec^hFBVHeM`5:3V;GM@3
+I=_bNk=O?8I2L9;H]iZEld1
+R2
+w1704521012
+8D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl/aluctrl.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/aluctrl/aluctrl.v
+!i122 12
+L0 1 136
+R9
+R10
+r1
+!s85 0
+31
+R15
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl/aluctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl|D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl/aluctrl.v|
+!i113 0
+R12
+!s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vAluFinal
+2D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluFinal.v
+R14
+!i10b 1
+!s100 VkNHe;AV8WDf9dlZbLC103
+I?UMJoaY]ZdQWR4Vb:iD]o2
+R2
+w1704528225
+8D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluFinal.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/alu/AluFinal.v
+!i122 14
+L0 1 59
+R9
+R10
+r1
+!s85 0
+31
+Z17 !s108 1704941512.000000
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluFinal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu|D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluFinal.v|
+!i113 0
+R12
+R13
+R6
+n@alu@final
+valuN
+2D:/practicasArqui/ultima alu/monociclo_fpga/alu/aluN.v
+R8
+!i10b 1
+!s100 MA^]SN`6;ld2l2n;D?[mJ1
+I`Q?=<UXGRi3i@;J9EnYbl3
+R2
+w1704936741
+8D:/practicasArqui/ultima alu/monociclo_fpga/alu/aluN.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/alu/aluN.v
+!i122 1
+L0 1 65
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/alu/aluN.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu|D:/practicasArqui/ultima alu/monociclo_fpga/alu/aluN.v|
+!i113 0
+R12
+R13
+R6
+nalu@n
+vdcache
+2D:/practicasArqui/ultima alu/monociclo_fpga/dcache/dcache.v
+R16
+!i10b 1
+!s100 `1lY2kmmH6mPcNR`74h8K3
+IDo=A^;og]<@Z9I]AHkzIH3
+R2
+w1703727340
+8D:/practicasArqui/ultima alu/monociclo_fpga/dcache/dcache.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/dcache/dcache.v
+!i122 10
+L0 1 21
+R9
+R10
+r1
+!s85 0
+31
+R15
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/dcache/dcache.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/dcache|D:/practicasArqui/ultima alu/monociclo_fpga/dcache/dcache.v|
+!i113 0
+R12
+!s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/dcache} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vdecode
+2D:/practicasArqui/ultima alu/monociclo_fpga/decode/decode.v
+R16
+!i10b 1
+!s100 =W9MPHnSbQ;KkgCj=EI<J1
+IRoTe3W@4=WnC;i5R;?ILS2
+R2
+w1704768592
+8D:/practicasArqui/ultima alu/monociclo_fpga/decode/decode.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/decode/decode.v
+!i122 7
+L0 1 106
+R9
+R10
+r1
+!s85 0
+31
+R15
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/decode/decode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/decode|D:/practicasArqui/ultima alu/monociclo_fpga/decode/decode.v|
+!i113 0
+R12
+!s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/decode} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vdisp7segs
+2D:/practicasArqui/ultima alu/monociclo_fpga/fpga/disp7segs.v
+R8
+!i10b 1
+!s100 cLUY]VYO[U=k6fEHnNYVP1
+IR=XC?QPlizo]=Xe`Ig?C22
+R2
+w1695402418
+8D:/practicasArqui/ultima alu/monociclo_fpga/fpga/disp7segs.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/fpga/disp7segs.v
+!i122 3
+L0 1 43
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/fpga/disp7segs.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/fpga|D:/practicasArqui/ultima alu/monociclo_fpga/fpga/disp7segs.v|
+!i113 0
+R12
+Z18 !s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/fpga} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vdivisor50mhz
+2D:/practicasArqui/ultima alu/monociclo_fpga/fpga/divisor50mhz.v
+R16
+!i10b 1
+!s100 []QB53W?5eY4^>`T>oomQ0
+IcKLSE<VVHBV:A6I0FgMTO2
+R2
+w1697768541
+8D:/practicasArqui/ultima alu/monociclo_fpga/fpga/divisor50mhz.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/fpga/divisor50mhz.v
+!i122 6
+L0 1 26
+R9
+R10
+r1
+!s85 0
+31
+R15
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/fpga/divisor50mhz.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/fpga|D:/practicasArqui/ultima alu/monociclo_fpga/fpga/divisor50mhz.v|
+!i113 0
+R12
+R18
+R6
+vflagdetector
+2D:/practicasArqui/ultima alu/monociclo_fpga/alu/flagdetector.v
+R16
+!i10b 1
+!s100 hDIJQIcPi]gOFkn99if:W1
+I@l4W06amNXCZP=^ZRB8`<2
+R2
+w1704516584
+8D:/practicasArqui/ultima alu/monociclo_fpga/alu/flagdetector.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/alu/flagdetector.v
+!i122 11
+L0 1 50
+R9
+R10
+r1
+!s85 0
+31
+R15
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/alu/flagdetector.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu|D:/practicasArqui/ultima alu/monociclo_fpga/alu/flagdetector.v|
+!i113 0
+R12
+R13
+R6
+vfulladder
+Z19 2D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador/fulladder.v
+R8
+!i10b 1
+!s100 [YSKf_;lZEN3<m0P9:`Ne3
+INzm5Bk:m[SQ:>^KS2<]ES0
+R2
+Z20 w1702965302
+Z21 8D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador/fulladder.v
+Z22 FD:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador/fulladder.v
+!i122 0
+L0 1 20
+R9
+R10
+r1
+!s85 0
+31
+R11
+Z23 !s107 D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador/fulladder.v|
+Z24 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador|D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador/fulladder.v|
+!i113 0
+R12
+Z25 !s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vfulladder_tb
+R19
+R8
+!i10b 1
+!s100 7g[>m]m]:gMCghO=BC9JE3
+I@OJ:eI9T0SV1E0L=:mYNk0
+R2
+R20
+R21
+R22
+!i122 0
+L0 26 61
+R9
+R10
+r1
+!s85 0
+31
+R11
+R23
+R24
+!i113 0
+R12
+R25
+R6
+vicache
+2D:/practicasArqui/ultima alu/monociclo_fpga/chache/ichache.v
+R14
+!i10b 1
+!s100 bYg_n6j9R`ImmN^GgO?7A0
+I?lgHefMQ4GooV<FG>j`gJ1
+R2
+w1701399788
+8D:/practicasArqui/ultima alu/monociclo_fpga/chache/ichache.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/chache/ichache.v
+!i122 15
+L0 1 12
+R9
+R10
+r1
+!s85 0
+31
+R17
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/chache/ichache.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/chache|D:/practicasArqui/ultima alu/monociclo_fpga/chache/ichache.v|
+!i113 0
+R12
+!s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/chache} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vmonociclo
+Z26 2D:/practicasArqui/ultima alu/monociclo_fpga/monociclo.v
+R16
+!i10b 1
+!s100 DOL^l`Pd78^ig8EZ?TJz83
+I7SQ]gVk9;QE;;eR[oLad73
+R2
+Z27 w1704768099
+Z28 8D:/practicasArqui/ultima alu/monociclo_fpga/monociclo.v
+Z29 FD:/practicasArqui/ultima alu/monociclo_fpga/monociclo.v
+!i122 4
+L0 1 184
+R9
+R10
+r1
+!s85 0
+31
+R11
+Z30 !s107 D:/practicasArqui/ultima alu/monociclo_fpga/monociclo.v|
+Z31 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga|D:/practicasArqui/ultima alu/monociclo_fpga/monociclo.v|
+!i113 0
+R12
+Z32 !s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vmonociclo_fpga
+2D:/practicasArqui/ultima alu/monociclo_fpga/monociclo_fpga.v
+R16
+!i10b 1
+!s100 @V@Dz3cZiaSJgXn<<IM0?0
+IBKcjJ[U;65FeLle4aaW:P3
+R2
+w1698732449
+8D:/practicasArqui/ultima alu/monociclo_fpga/monociclo_fpga.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/monociclo_fpga.v
+!i122 5
+L0 1 78
+R9
+R10
+r1
+!s85 0
+31
+R15
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/monociclo_fpga.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga|D:/practicasArqui/ultima alu/monociclo_fpga/monociclo_fpga.v|
+!i113 0
+R12
+R32
+R6
+vmonocliclo_tb
+R26
+R16
+!i10b 1
+!s100 b_:aj27C6hDcHn:40^OGV0
+IDoYJg3klMjik9Kc<S=6QA3
+R2
+R27
+R28
+R29
+!i122 4
+L0 192 33
+R9
+R10
+r1
+!s85 0
+31
+R11
+R30
+R31
+!i113 0
+R12
+R32
+R6
+vregisterfile
+2D:/practicasArqui/ultima alu/monociclo_fpga/regfile/registerfile.v
+R16
+!i10b 1
+!s100 T`QbVdk_;m2aA=djNaPJb3
+IY9zo@83Zgj>k8z_;mm6@A2
+R2
+w1702971731
+8D:/practicasArqui/ultima alu/monociclo_fpga/regfile/registerfile.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/regfile/registerfile.v
+!i122 8
+L0 1 27
+R9
+R10
+r1
+!s85 0
+31
+R15
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/regfile/registerfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/regfile|D:/practicasArqui/ultima alu/monociclo_fpga/regfile/registerfile.v|
+!i113 0
+R12
+!s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/regfile} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vsign_extension
+2D:/practicasArqui/ultima alu/monociclo_fpga/sign/signext.v
+R16
+!i10b 1
+!s100 HiRoUCB8;7WB0WFUCfN6]2
+IbB7JhJ8<j9X99<YaJQTzT0
+R2
+w1704509769
+8D:/practicasArqui/ultima alu/monociclo_fpga/sign/signext.v
+FD:/practicasArqui/ultima alu/monociclo_fpga/sign/signext.v
+!i122 9
+L0 1 32
+R9
+R10
+r1
+!s85 0
+31
+R15
+!s107 D:/practicasArqui/ultima alu/monociclo_fpga/sign/signext.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/sign|D:/practicasArqui/ultima alu/monociclo_fpga/sign/signext.v|
+!i113 0
+R12
+!s92 -vlog01compat -work work {+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/sign} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6

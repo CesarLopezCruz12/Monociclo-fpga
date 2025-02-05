@@ -1,0 +1,44 @@
+module AluFinal(
+      input         A_i,
+	   input         B_i,
+	   input  [3:0]   ope_i,
+		input  [3:0]  sel_i,
+		input         brflag_i,
+		input         branch_i,
+		output        c_o,
+	   output [31:0]  salmux_o
+); 
+
+ wire salAlu_w;
+ wire res_w;
+
+	aluN execute_u0(
+		.A_i			(A_i),
+		.B_i			(B_i),
+		.c_i			(sel_i),
+		.ope_i		(ope_i),
+		.branch_i 	(branch_i),
+		.brctrl_i	(3'b000),
+		.brflag_o  	(brflag_i),
+		.c_o			(c_o),
+		.sal_o		(salAlu_w)
+	);
+	
+	AluChikita  AluChikita_u0(
+    .dators1_i (A_i),
+    .salmux_i (B_i),
+    .sel_i   (ope_i),   //datos de alu control cambiando a 4
+    .res_o     (res_w)
+);
+
+
+    muxAlu  muxAlu_u0(
+    .Alures_i (salAlu_w),
+    .res_i    (res_w),
+    .s_i      (ope_i[3]),
+    .SalMuxAlu_o (salmux_o)
+);
+
+
+
+endmodule 

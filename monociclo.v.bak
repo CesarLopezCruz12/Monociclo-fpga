@@ -1,0 +1,34 @@
+module monociclo (
+
+	input 	clk_i,
+	input		rst_ni,
+	output	[31:0] monitor_o
+);
+	/////SECCION DE ASIGNACION DE MONITOREO
+	assign 		monitor_o = if_inst_o;
+	
+	/////SECCION DE DEFINICION DE SEÑALES
+	reg  	[31:0] pc_w;
+	wire 	[31:0] pcnext_w;
+	wire [31:0]  if_inst_o;
+
+	///////--------------------------
+	/////// Fecth Stage - If
+	///////--------------------------
+
+	always@(posedge clk_i, negedge rst_ni)
+	begin
+		if(!rst_ni)
+			pc_w = 32'b0;
+		else
+			pc_w = pcnext_w;
+	end
+	assign pcnext_w = pc_w + 4'h4;
+	
+	
+	icache icache_u0(
+		.addrrd_i	(pc_w[9:2]),
+		.inst_o		(if_inst_o)
+	);
+endmodule
+

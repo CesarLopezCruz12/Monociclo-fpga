@@ -1,0 +1,253 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do monociclo_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is rasec@LAPTOP-L8C36AV4.
+# vlib rtl_work
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Errors: 0, Warnings: 1
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying d:/programs/quartus/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu/sumador {D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador/fulladder.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:50 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador" D:/practicasArqui/ultima alu/monociclo_fpga/alu/sumador/fulladder.v 
+# -- Compiling module fulladder
+# -- Compiling module fulladder_tb
+# 
+# Top level modules:
+# 	fulladder_tb
+# End time: 20:51:50 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/aluN.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:50 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu" D:/practicasArqui/ultima alu/monociclo_fpga/alu/aluN.v 
+# -- Compiling module aluN
+# 
+# Top level modules:
+# 	aluN
+# End time: 20:51:50 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/alu.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:50 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu" D:/practicasArqui/ultima alu/monociclo_fpga/alu/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 20:51:50 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/fpga {D:/practicasArqui/ultima alu/monociclo_fpga/fpga/disp7segs.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:50 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/fpga" D:/practicasArqui/ultima alu/monociclo_fpga/fpga/disp7segs.v 
+# -- Compiling module disp7segs
+# 
+# Top level modules:
+# 	disp7segs
+# End time: 20:51:50 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga {D:/practicasArqui/ultima alu/monociclo_fpga/monociclo.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:50 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga" D:/practicasArqui/ultima alu/monociclo_fpga/monociclo.v 
+# -- Compiling module monociclo
+# -- Compiling module monocliclo_tb
+# 
+# Top level modules:
+# 	monocliclo_tb
+# End time: 20:51:51 on Jan 10,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga {D:/practicasArqui/ultima alu/monociclo_fpga/monociclo_fpga.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:51 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga" D:/practicasArqui/ultima alu/monociclo_fpga/monociclo_fpga.v 
+# -- Compiling module monociclo_fpga
+# 
+# Top level modules:
+# 	monociclo_fpga
+# End time: 20:51:51 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/fpga {D:/practicasArqui/ultima alu/monociclo_fpga/fpga/divisor50mhz.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:51 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/fpga" D:/practicasArqui/ultima alu/monociclo_fpga/fpga/divisor50mhz.v 
+# -- Compiling module divisor50mhz
+# 
+# Top level modules:
+# 	divisor50mhz
+# End time: 20:51:51 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/decode {D:/practicasArqui/ultima alu/monociclo_fpga/decode/decode.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:51 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/decode" D:/practicasArqui/ultima alu/monociclo_fpga/decode/decode.v 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 20:51:51 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/regfile {D:/practicasArqui/ultima alu/monociclo_fpga/regfile/registerfile.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:51 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/regfile" D:/practicasArqui/ultima alu/monociclo_fpga/regfile/registerfile.v 
+# -- Compiling module registerfile
+# 
+# Top level modules:
+# 	registerfile
+# End time: 20:51:51 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/sign {D:/practicasArqui/ultima alu/monociclo_fpga/sign/signext.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:51 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/sign" D:/practicasArqui/ultima alu/monociclo_fpga/sign/signext.v 
+# -- Compiling module sign_extension
+# 
+# Top level modules:
+# 	sign_extension
+# End time: 20:51:51 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/dcache {D:/practicasArqui/ultima alu/monociclo_fpga/dcache/dcache.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:51 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/dcache" D:/practicasArqui/ultima alu/monociclo_fpga/dcache/dcache.v 
+# -- Compiling module dcache
+# 
+# Top level modules:
+# 	dcache
+# End time: 20:51:51 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/flagdetector.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:51 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu" D:/practicasArqui/ultima alu/monociclo_fpga/alu/flagdetector.v 
+# -- Compiling module flagdetector
+# 
+# Top level modules:
+# 	flagdetector
+# End time: 20:51:51 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/aluctrl {D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl/aluctrl.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:51 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl" D:/practicasArqui/ultima alu/monociclo_fpga/aluctrl/aluctrl.v 
+# -- Compiling module aluctrl
+# 
+# Top level modules:
+# 	aluctrl
+# End time: 20:51:51 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluChikita.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:51 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu" D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluChikita.v 
+# -- Compiling module AluChikita
+# 
+# Top level modules:
+# 	AluChikita
+# End time: 20:51:52 on Jan 10,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/alu {D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluFinal.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:52 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/alu" D:/practicasArqui/ultima alu/monociclo_fpga/alu/AluFinal.v 
+# -- Compiling module AluFinal
+# 
+# Top level modules:
+# 	AluFinal
+# End time: 20:51:52 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/practicasArqui/ultima\ alu/monociclo_fpga/chache {D:/practicasArqui/ultima alu/monociclo_fpga/chache/ichache.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 20:51:52 on Jan 10,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/practicasArqui/ultima alu/monociclo_fpga/chache" D:/practicasArqui/ultima alu/monociclo_fpga/chache/ichache.v 
+# -- Compiling module icache
+# 
+# Top level modules:
+# 	icache
+# End time: 20:51:52 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -voptargs=+acc work.monocliclo_tb
+# vsim -voptargs="+acc" work.monocliclo_tb 
+# Start time: 20:52:12 on Jan 10,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.monocliclo_tb(fast)
+# Loading work.monociclo(fast)
+# Loading work.icache(fast)
+# Loading work.decode(fast)
+# Loading work.registerfile(fast)
+# Loading work.sign_extension(fast)
+# Loading work.aluctrl(fast)
+# Loading work.AluFinal(fast)
+# Loading work.aluN(fast)
+# Loading work.alu(fast)
+# Loading work.fulladder(fast)
+# Loading work.flagdetector(fast)
+# Loading work.AluChikita(fast)
+# Loading work.dcache(fast)
+add wave -position insertpoint  \
+sim:/monocliclo_tb/clk_i \
+sim:/monocliclo_tb/monitor_o \
+sim:/monocliclo_tb/rst_ni
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: rasec  Hostname: LAPTOP-L8C36AV4  ProcessID: 25972
+#           Attempting to use alternate WLF file "./wlftabvbhv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftabvbhv
+do {D:/practicasArqui/ultima alu/monociclo_fpga/simulation/questa/wave3.do}
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 10:55:55 on Jan 11,2024, Elapsed time: 14:03:43
+# Errors: 0, Warnings: 3

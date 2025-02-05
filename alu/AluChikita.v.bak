@@ -1,0 +1,26 @@
+module AluChikita(
+    input         dators1_i,
+    input         salmux_i,
+    input [3:0]	  sel_i,   //datos de alu control cambiando a 4
+    output reg    res_o
+); 
+
+
+  	always @(*)
+	begin
+		case (sel_i)
+			3'b1001: //Shift Left Logical
+					res_o	= dators1_i << salmux_i ;
+
+			3'b1010://Shift Right Logical
+					res_o =  dators1_i >> salmux_i ;
+
+			3'b1011: //Shift Left Logical
+					res_o	= dators1_i >>> salmux_i;
+			default:
+					res_o	= 1'b0;
+
+		endcase
+	end
+
+endmodule

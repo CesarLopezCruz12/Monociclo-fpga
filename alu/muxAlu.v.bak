@@ -1,0 +1,19 @@
+module muxAlu(
+    input Alures_i,
+    input res_i,
+    input s_i,
+    output reg [31:0] SalMuxAlu_o
+);
+
+always @(*)
+begin
+	if (s_i == 1'b1)
+		begin
+			SalMuxAlu_o = Alures_i;
+		end
+	else
+		begin
+			SalMuxAlu_o = res_i;
+		end	
+end
+endmodule 
